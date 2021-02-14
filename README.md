@@ -26,6 +26,10 @@ from sklearn.pipeline import make_pipeline
 from scipy import stats
 from sklearn.preprocessing import StandardScaler
 from time import time
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report
+from sklearn.svm import SVC
+import xgboost as xgb
 ```
 
 ## Contributing
